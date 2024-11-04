@@ -34,19 +34,19 @@ Each file contains the following fields:
 * `keyphrases`: a list of keyphrases that could be generated using the goal. 
 
 
-### Envrionment
+### Environment
 We recommend using a conda environment for the project. You may follow the steps below to set up.
 
 ```
 conda create --name metakp python==3.8
 conda activate metakp
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
-pip install --upgrade -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Fine-tuning
 ### Pre-processing
-Prepare the data by running `cd data ; python process_seq2seq.python `. The script will preprocess specified datasets. 
+Prepare the data by running `cd data ; python process_seq2seq.python` . The script will preprocess specified datasets. 
 
 ### Train
 - `cd fine-tuning`
