@@ -5,8 +5,13 @@
   <a href="https://arxiv.org/pdf/2407.00191.pdf"><img src="https://img.shields.io/badge/📝-Paper-blue" height="23"></a>
 </p>
 
+🖋 Di Wu*, Xiaoxian Shen*, and Kai-Wei Chang
+
 We introduce **on-demand keyphrase generation**, a novel paradigm that requires keyphrase predictions to conform to specific high-level goals or intents. 
+
 We release **MetaKP**, a large-scale benchmarking dataset covering four datasets, 7500 documents, and 3760 goals from the news and biomedical text domain.
+
+![Overview](assets/metakp_figure_1.png)
 
 ## Setup
 
